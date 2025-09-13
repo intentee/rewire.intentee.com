@@ -8,7 +8,7 @@ fn template(context, props, content) {
           Rewire - Developed by <a href="https://intentee.com">Intentee</a>
         </div>
         <h1 class="homepage__title">
-          Build code-free applications
+          Build code&dash;free applications
         </h1>
         <div class="homepage__details">
           <div class="homepage__details__section">

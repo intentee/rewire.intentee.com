@@ -4,19 +4,30 @@ fn template(context, props, content) {
   component {
     <LayoutMinimal>
       <div class="homepage">
+        <div class="homepage__product-name">
+          Rewire - Developed by <a href="https://intentee.com">Intentee</a>
+        </div>
         <h1 class="homepage__title">
-          Hello!
+          Connect your teams to achieve best MCP servers
         </h1>
-        <h2 class="homepage__subtitle">
-          This is a sample page that comes with Poet. Take a look around to see how everything works. You can also replace all of this with your own content.
-        </h2>
-        <div class="homepage__cta">
-          <a href={context.link_to("#example-page")} class="homepage__cta__button homepage__cta__button--primary">
-            See examples
-          </a>
-          <a href="https://poet.intentee.com" class="homepage__cta__button" target="_blank">
-            Documentation
-          </a>
+        <div class="homepage__details">
+          <div class="homepage__details__section">
+            <h2>What is it?</h2>
+            <p>
+              Next generation conversational no-code for building systems without traditional code and UI.
+            </p>
+          </div>
+          <div class="homepage__details__section">
+            <h2>For whom?</h2>
+            <p>
+              Domain experts who need to build solutions independently and without the bottlenecks of traditional software processes.
+            </p>
+          </div>
+          <div class="homepage__cta">
+            <div class="homepage__cta__button">
+              Release date to be announced
+            </div>
+          </div>
         </div>
       </div>
     </LayoutMinimal>

@@ -2,7 +2,7 @@
   --color-body-background: #ffffff;
   --color-body-font: #222;
   --color-border: black;
-  --color-highlight: lime;
+  --color-highlight: orange;
   --color-link-text-decoration: inherit;
   --color-note-background: #ffffdd;
   --color-scrollbar: #e5e3e1;
@@ -11,6 +11,7 @@
   --duration-transition-hover: 100ms;
   --font-family-body: "Inter", sans-serif;
   --font-family-monospace: "Noto Sans Mono", monospace;
+  --font-family-serif: "Instrument Serif", serif;
   --height-documentation-navigation: 50px;
   --height-page-navigation: 54px;
   --height-page-footer: 100px;

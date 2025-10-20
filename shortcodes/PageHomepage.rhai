@@ -4,17 +4,20 @@ fn template(context, props, content) {
   component {
     <LayoutMinimal>
       <div class="homepage">
-        <div class="homepage__product-name">
-          Rewire - Developed by <a href="https://intentee.com">Intentee</a>
-        </div>
         <h1 class="homepage__title">
-          Build code&dash;free applications
+          Build code&#8209;free applications
         </h1>
         <div class="homepage__details">
           <div class="homepage__details__section">
             <h2>What is it?</h2>
             <p>
               Next generation conversational no-code for building systems without traditional code and UI.
+            </p>
+          </div>
+          <div class="homepage__details__section">
+            <h2>Who made this?</h2>
+            <p>
+              This is an <a href="https://intentee.com">Intentee</a> project.
             </p>
           </div>
           <div class="homepage__details__section">
